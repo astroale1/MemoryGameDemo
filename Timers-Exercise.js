@@ -8,7 +8,7 @@ function countDown(time){
         else {
             console.log(time)
         }
-    },1000)
+    },500)
 };
 
 function randomGame(){
@@ -21,5 +21,5 @@ function randomGame(){
             clearInterval(timer);
             console.log("It took " + times + " try/tries.");
         }
-    },1000)
+    },500)
 }
